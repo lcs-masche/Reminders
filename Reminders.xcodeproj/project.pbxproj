@@ -13,6 +13,9 @@
 		3DAB798827A0386F00C914A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB797627A0386200C914A8 /* ContentView.swift */; };
 		3DAB798927A0386F00C914A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB797727A0386F00C914A8 /* Assets.xcassets */; };
 		3DAB798A27A0386F00C914A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB797727A0386F00C914A8 /* Assets.xcassets */; };
+		3DAB799627A03A8800C914A8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB799527A03A8800C914A8 /* Task.swift */; };
+		3DAB799827A03B4000C914A8 /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB799727A03B4000C914A8 /* TaskPriority.swift */; };
+		3DAB799A27A03BDB00C914A8 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB799927A03BDB00C914A8 /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3DAB797C27A0386F00C914A8 /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAB798227A0386F00C914A8 /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAB798427A0386F00C914A8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3DAB799527A03A8800C914A8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3DAB799727A03B4000C914A8 /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
+		3DAB799927A03BDB00C914A8 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		3DAB799427A038EF00C914A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3DAB799527A03A8800C914A8 /* Task.swift */,
+				3DAB799727A03B4000C914A8 /* TaskPriority.swift */,
+				3DAB799927A03BDB00C914A8 /* TaskStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,7 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAB799A27A03BDB00C914A8 /* TaskStore.swift in Sources */,
 				3DAB798727A0386F00C914A8 /* ContentView.swift in Sources */,
+				3DAB799627A03A8800C914A8 /* Task.swift in Sources */,
+				3DAB799827A03B4000C914A8 /* TaskPriority.swift in Sources */,
 				3DAB798527A0386F00C914A8 /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +347,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,7 +377,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
