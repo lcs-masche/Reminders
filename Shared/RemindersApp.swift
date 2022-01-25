@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RemindersApp: App {
+    
+    private var store = TaskStore(tasks: TestData)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: store)
         }
     }
 }

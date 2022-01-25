@@ -15,7 +15,7 @@ struct Task: Identifiable {
 }
 
 let TestData = [
-    Task(desciption: "Get better in Cs", priority: .high, completed: false),
+    Task(desciption: "Get better in CS", priority: .high, completed: false),
     Task(desciption: "Think about uni's", priority: .medium, completed: true),
     Task(desciption: "Get a better Mac", priority: .low, completed: true)
 ]
